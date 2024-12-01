@@ -1,0 +1,9 @@
+<h2> Elementos de una BBDD</h2>
+
+{{ lista_pruebas2 }}
+
+<ul>
+{% for prueba in lista_pruebas2 %}
+    <li> {{  prueba.titulo }} - {{ prueba.subtitulo }} </li>
+{% endfor %}
+</ul>    
